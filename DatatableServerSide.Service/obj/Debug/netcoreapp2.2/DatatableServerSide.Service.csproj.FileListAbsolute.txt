@@ -1,0 +1,14 @@
+C:\Adrita\Workspace\GitHub\Projects\DataTableServerSide\DatatableServerSide.Service\bin\Debug\netcoreapp2.2\DatatableServerSide.Service.deps.json
+C:\Adrita\Workspace\GitHub\Projects\DataTableServerSide\DatatableServerSide.Service\bin\Debug\netcoreapp2.2\DatatableServerSide.Service.dll
+C:\Adrita\Workspace\GitHub\Projects\DataTableServerSide\DatatableServerSide.Service\bin\Debug\netcoreapp2.2\DatatableServerSide.Service.pdb
+C:\Adrita\Workspace\GitHub\Projects\DataTableServerSide\DatatableServerSide.Service\obj\Debug\netcoreapp2.2\DatatableServerSide.Service.csprojAssemblyReference.cache
+C:\Adrita\Workspace\GitHub\Projects\DataTableServerSide\DatatableServerSide.Service\obj\Debug\netcoreapp2.2\DatatableServerSide.Service.csproj.CoreCompileInputs.cache
+C:\Adrita\Workspace\GitHub\Projects\DataTableServerSide\DatatableServerSide.Service\obj\Debug\netcoreapp2.2\DatatableServerSide.Service.AssemblyInfoInputs.cache
+C:\Adrita\Workspace\GitHub\Projects\DataTableServerSide\DatatableServerSide.Service\obj\Debug\netcoreapp2.2\DatatableServerSide.Service.AssemblyInfo.cs
+C:\Adrita\Workspace\GitHub\Projects\DataTableServerSide\DatatableServerSide.Service\obj\Debug\netcoreapp2.2\DatatableServerSide.Service.dll
+C:\Adrita\Workspace\GitHub\Projects\DataTableServerSide\DatatableServerSide.Service\obj\Debug\netcoreapp2.2\DatatableServerSide.Service.pdb
+C:\Adrita\Workspace\GitHub\Projects\DatatableServerSide\DatatableServerSide.Service\bin\Debug\netcoreapp2.2\DatatableServerSide.Data.dll
+C:\Adrita\Workspace\GitHub\Projects\DatatableServerSide\DatatableServerSide.Service\bin\Debug\netcoreapp2.2\DatatableServerSide.Repository.dll
+C:\Adrita\Workspace\GitHub\Projects\DatatableServerSide\DatatableServerSide.Service\bin\Debug\netcoreapp2.2\DatatableServerSide.Data.pdb
+C:\Adrita\Workspace\GitHub\Projects\DatatableServerSide\DatatableServerSide.Service\bin\Debug\netcoreapp2.2\DatatableServerSide.Repository.pdb
+C:\Adrita\Workspace\GitHub\Projects\DatatableServerSide\DatatableServerSide.Service\obj\Debug\netcoreapp2.2\DatatableServerSide.Service.csproj.CopyComplete

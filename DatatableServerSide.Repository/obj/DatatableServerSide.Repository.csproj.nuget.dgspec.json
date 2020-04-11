@@ -1,0 +1,164 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Adrita\\Workspace\\GitHub\\Projects\\DatatableServerSide\\DatatableServerSide.Repository\\DatatableServerSide.Repository.csproj": {}
+  },
+  "projects": {
+    "C:\\Adrita\\Workspace\\GitHub\\Projects\\DatatableServerSide\\DatatableServerSide.Data\\DatatableServerSide.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Adrita\\Workspace\\GitHub\\Projects\\DatatableServerSide\\DatatableServerSide.Data\\DatatableServerSide.Data.csproj",
+        "projectName": "DatatableServerSide.Data",
+        "projectPath": "C:\\Adrita\\Workspace\\GitHub\\Projects\\DatatableServerSide\\DatatableServerSide.Data\\DatatableServerSide.Data.csproj",
+        "packagesPath": "C:\\Users\\adrit\\.nuget\\packages\\",
+        "outputPath": "C:\\Adrita\\Workspace\\GitHub\\Projects\\DatatableServerSide\\DatatableServerSide.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\adrit\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "DataTables.AspNet.Core": {
+              "target": "Package",
+              "version": "[2.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[2.2.6, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "System.Linq.Dynamic.Core": {
+              "target": "Package",
+              "version": "[1.0.23, )"
+            },
+            "morelinq": {
+              "target": "Package",
+              "version": "[3.3.2, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Adrita\\Workspace\\GitHub\\Projects\\DatatableServerSide\\DatatableServerSide.Repository\\DatatableServerSide.Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Adrita\\Workspace\\GitHub\\Projects\\DatatableServerSide\\DatatableServerSide.Repository\\DatatableServerSide.Repository.csproj",
+        "projectName": "DatatableServerSide.Repository",
+        "projectPath": "C:\\Adrita\\Workspace\\GitHub\\Projects\\DatatableServerSide\\DatatableServerSide.Repository\\DatatableServerSide.Repository.csproj",
+        "packagesPath": "C:\\Users\\adrit\\.nuget\\packages\\",
+        "outputPath": "C:\\Adrita\\Workspace\\GitHub\\Projects\\DatatableServerSide\\DatatableServerSide.Repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\adrit\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "C:\\Adrita\\Workspace\\GitHub\\Projects\\DatatableServerSide\\DatatableServerSide.Data\\DatatableServerSide.Data.csproj": {
+                "projectPath": "C:\\Adrita\\Workspace\\GitHub\\Projects\\DatatableServerSide\\DatatableServerSide.Data\\DatatableServerSide.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "DataTables.AspNet.Core": {
+              "target": "Package",
+              "version": "[2.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[2.2.6, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "System.Linq.Dynamic.Core": {
+              "target": "Package",
+              "version": "[1.0.23, )"
+            },
+            "morelinq": {
+              "target": "Package",
+              "version": "[3.3.2, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

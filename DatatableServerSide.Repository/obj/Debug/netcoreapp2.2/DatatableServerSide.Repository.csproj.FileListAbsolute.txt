@@ -1,0 +1,12 @@
+C:\Adrita\Workspace\GitHub\Projects\DataTableServerSide\DatatableServerSide.Repository\bin\Debug\netcoreapp2.2\DatatableServerSide.Repository.deps.json
+C:\Adrita\Workspace\GitHub\Projects\DataTableServerSide\DatatableServerSide.Repository\bin\Debug\netcoreapp2.2\DatatableServerSide.Repository.dll
+C:\Adrita\Workspace\GitHub\Projects\DataTableServerSide\DatatableServerSide.Repository\bin\Debug\netcoreapp2.2\DatatableServerSide.Repository.pdb
+C:\Adrita\Workspace\GitHub\Projects\DataTableServerSide\DatatableServerSide.Repository\obj\Debug\netcoreapp2.2\DatatableServerSide.Repository.csprojAssemblyReference.cache
+C:\Adrita\Workspace\GitHub\Projects\DataTableServerSide\DatatableServerSide.Repository\obj\Debug\netcoreapp2.2\DatatableServerSide.Repository.csproj.CoreCompileInputs.cache
+C:\Adrita\Workspace\GitHub\Projects\DataTableServerSide\DatatableServerSide.Repository\obj\Debug\netcoreapp2.2\DatatableServerSide.Repository.AssemblyInfoInputs.cache
+C:\Adrita\Workspace\GitHub\Projects\DataTableServerSide\DatatableServerSide.Repository\obj\Debug\netcoreapp2.2\DatatableServerSide.Repository.AssemblyInfo.cs
+C:\Adrita\Workspace\GitHub\Projects\DataTableServerSide\DatatableServerSide.Repository\obj\Debug\netcoreapp2.2\DatatableServerSide.Repository.dll
+C:\Adrita\Workspace\GitHub\Projects\DataTableServerSide\DatatableServerSide.Repository\obj\Debug\netcoreapp2.2\DatatableServerSide.Repository.pdb
+C:\Adrita\Workspace\GitHub\Projects\DataTableServerSide\DatatableServerSide.Repository\bin\Debug\netcoreapp2.2\DatatableServerSide.Data.dll
+C:\Adrita\Workspace\GitHub\Projects\DataTableServerSide\DatatableServerSide.Repository\bin\Debug\netcoreapp2.2\DatatableServerSide.Data.pdb
+C:\Adrita\Workspace\GitHub\Projects\DataTableServerSide\DatatableServerSide.Repository\obj\Debug\netcoreapp2.2\DatatableServerSide.Repository.csproj.CopyComplete

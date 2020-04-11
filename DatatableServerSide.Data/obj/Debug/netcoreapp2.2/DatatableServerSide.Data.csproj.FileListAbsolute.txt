@@ -1,0 +1,9 @@
+C:\Adrita\Workspace\GitHub\Projects\DataTableServerSide\DatatableServerSide.Data\bin\Debug\netcoreapp2.2\DatatableServerSide.Data.deps.json
+C:\Adrita\Workspace\GitHub\Projects\DataTableServerSide\DatatableServerSide.Data\bin\Debug\netcoreapp2.2\DatatableServerSide.Data.dll
+C:\Adrita\Workspace\GitHub\Projects\DataTableServerSide\DatatableServerSide.Data\bin\Debug\netcoreapp2.2\DatatableServerSide.Data.pdb
+C:\Adrita\Workspace\GitHub\Projects\DataTableServerSide\DatatableServerSide.Data\obj\Debug\netcoreapp2.2\DatatableServerSide.Data.csprojAssemblyReference.cache
+C:\Adrita\Workspace\GitHub\Projects\DataTableServerSide\DatatableServerSide.Data\obj\Debug\netcoreapp2.2\DatatableServerSide.Data.csproj.CoreCompileInputs.cache
+C:\Adrita\Workspace\GitHub\Projects\DataTableServerSide\DatatableServerSide.Data\obj\Debug\netcoreapp2.2\DatatableServerSide.Data.AssemblyInfoInputs.cache
+C:\Adrita\Workspace\GitHub\Projects\DataTableServerSide\DatatableServerSide.Data\obj\Debug\netcoreapp2.2\DatatableServerSide.Data.AssemblyInfo.cs
+C:\Adrita\Workspace\GitHub\Projects\DataTableServerSide\DatatableServerSide.Data\obj\Debug\netcoreapp2.2\DatatableServerSide.Data.dll
+C:\Adrita\Workspace\GitHub\Projects\DataTableServerSide\DatatableServerSide.Data\obj\Debug\netcoreapp2.2\DatatableServerSide.Data.pdb
