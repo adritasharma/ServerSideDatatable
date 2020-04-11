@@ -41,7 +41,7 @@ namespace DataTableServerSide.Web
                                    .EnableRequestAdditionalParameters()
                                    .EnableResponseAdditionalParameters();
 
-            var dataTableBinder = new ModelBuilder();
+            var dataTableBinder = new ModelBinder();
             dataTableBinder.ParseAdditionalParameters = Parser;
             services.RegisterDataTables(datatableOptions, dataTableBinder);
 

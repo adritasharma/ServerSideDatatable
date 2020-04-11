@@ -49,6 +49,10 @@
               "target": "Package",
               "version": "[7.0.0, )"
             },
+            "DataTables.AspNet.AspNetCore": {
+              "target": "Package",
+              "version": "[2.0.2, )"
+            },
             "DataTables.AspNet.Core": {
               "target": "Package",
               "version": "[2.0.2, )"
@@ -129,6 +133,10 @@
               "target": "Package",
               "version": "[7.0.0, )"
             },
+            "DataTables.AspNet.AspNetCore": {
+              "target": "Package",
+              "version": "[2.0.2, )"
+            },
             "DataTables.AspNet.Core": {
               "target": "Package",
               "version": "[2.0.2, )"
@@ -191,6 +199,9 @@
               },
               "C:\\Adrita\\Workspace\\GitHub\\Projects\\DatatableServerSide\\DatatableServerSide.Repository\\DatatableServerSide.Repository.csproj": {
                 "projectPath": "C:\\Adrita\\Workspace\\GitHub\\Projects\\DatatableServerSide\\DatatableServerSide.Repository\\DatatableServerSide.Repository.csproj"
+              },
+              "C:\\Adrita\\Workspace\\GitHub\\Projects\\DatatableServerSide\\DatatableSeverside.Utility\\DatatableSeverside.Utility.csproj": {
+                "projectPath": "C:\\Adrita\\Workspace\\GitHub\\Projects\\DatatableServerSide\\DatatableSeverside.Utility\\DatatableSeverside.Utility.csproj"
               }
             }
           }
@@ -211,6 +222,10 @@
             "AutoMapper.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
               "version": "[7.0.0, )"
+            },
+            "DataTables.AspNet.AspNetCore": {
+              "target": "Package",
+              "version": "[2.0.2, )"
             },
             "DataTables.AspNet.Core": {
               "target": "Package",
@@ -233,6 +248,62 @@
             "morelinq": {
               "target": "Package",
               "version": "[3.3.2, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Adrita\\Workspace\\GitHub\\Projects\\DatatableServerSide\\DatatableSeverside.Utility\\DatatableSeverside.Utility.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Adrita\\Workspace\\GitHub\\Projects\\DatatableServerSide\\DatatableSeverside.Utility\\DatatableSeverside.Utility.csproj",
+        "projectName": "DatatableSeverside.Utility",
+        "projectPath": "C:\\Adrita\\Workspace\\GitHub\\Projects\\DatatableServerSide\\DatatableSeverside.Utility\\DatatableSeverside.Utility.csproj",
+        "packagesPath": "C:\\Users\\adrit\\.nuget\\packages\\",
+        "outputPath": "C:\\Adrita\\Workspace\\GitHub\\Projects\\DatatableServerSide\\DatatableSeverside.Utility\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\adrit\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "DataTables.AspNet.AspNetCore": {
+              "target": "Package",
+              "version": "[2.0.2, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
             }
           },
           "imports": [

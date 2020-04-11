@@ -12,3 +12,5 @@ C:\Adrita\Workspace\GitHub\Projects\DatatableServerSide\DatatableServerSide.Serv
 C:\Adrita\Workspace\GitHub\Projects\DatatableServerSide\DatatableServerSide.Service\bin\Debug\netcoreapp2.2\DatatableServerSide.Data.pdb
 C:\Adrita\Workspace\GitHub\Projects\DatatableServerSide\DatatableServerSide.Service\bin\Debug\netcoreapp2.2\DatatableServerSide.Repository.pdb
 C:\Adrita\Workspace\GitHub\Projects\DatatableServerSide\DatatableServerSide.Service\obj\Debug\netcoreapp2.2\DatatableServerSide.Service.csproj.CopyComplete
+C:\Adrita\Workspace\GitHub\Projects\DatatableServerSide\DatatableServerSide.Service\bin\Debug\netcoreapp2.2\DatatableSeverside.Utility.dll
+C:\Adrita\Workspace\GitHub\Projects\DatatableServerSide\DatatableServerSide.Service\bin\Debug\netcoreapp2.2\DatatableSeverside.Utility.pdb

@@ -12,7 +12,7 @@ namespace DatatableServerSide.Web.AutoMapperProfiles.RequestDTOs
         public int Start { get; set; }
         public int Length { get; set; }
         public IDictionary<string, object> AdditionalParameters { get; set; }
-        public string[] SearchColumns { get; set; }
+        public IDictionary<string, string> SearchColumns { get; set; }
         public string SearchText { get; set; }
         public string SortColumn { get; set; }
         public FCSortDirection SortType { get; set; }

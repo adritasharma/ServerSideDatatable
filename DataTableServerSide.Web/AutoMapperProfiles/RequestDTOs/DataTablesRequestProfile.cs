@@ -14,7 +14,7 @@ namespace DatatableServerSide.Web.AutoMapperProfiles.RequestDTOs
             CreateMap<IDataTablesRequest, DataTablesRequestDTO>()
                 .ForMember(m => m.SearchColumns, map => map.MapFrom(s =>
                      s.Columns != null && s.Columns.Any(x => x.IsSearchable) ?
-                        s.Columns.Where(x => x.IsSearchable).Select(x => x.Field).ToArray()
+                        s.Columns.Where(x => x.IsSearchable).ToDictionary(x => x.Field, x => x.Search.Value)
                         : null
                 )).ForMember(m => m.FilterType, map => map.MapFrom(s =>
                      s.AdditionalParameters != null && s.AdditionalParameters.Any(x => x.Key.ToLower() == "filtertype") ?

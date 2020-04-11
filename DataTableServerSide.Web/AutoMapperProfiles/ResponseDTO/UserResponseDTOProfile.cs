@@ -1,6 +1,6 @@
 ﻿using AutoMapper;
-using SalesCRM.DB.Models;
-using SalesCRM.Web.ViewModels.ResponseDTOs;
+using DatatableServerSide.Data.Models;
+using DatatableServerSide.Web.ViewModels.ResponseDTOs;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,8 +12,8 @@ namespace SalesCRM.Web.AutoMapperProfiles.ResponseDTO
     {
         public UserResponseDTOProfile()
         {
-            CreateMap<UsertblTemp, UserResponseDTO>()
-               .ForMember(m => m.RoleName, map => map.MapFrom(s => s.Userrole.FirstOrDefault().Role.RoleName));
+            CreateMap<User, UserResponseDTO>()
+               .ForMember(m => m.Roles, map => map.MapFrom(s => s.UserRoles.ToString()));
         }
     }
 }

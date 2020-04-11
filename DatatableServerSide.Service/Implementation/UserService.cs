@@ -11,6 +11,7 @@ using DatatableServerSide.Service.ServiceModels;
 using DatatableServerSide.Data.Models;
 using static DatatableServerSide.Data.Enum;
 using DatatableServerSide.Service.Interface;
+using DatatableSeverside.Utility;
 
 namespace DatatableServerSide.Service.Implementations
 {
@@ -30,20 +31,47 @@ namespace DatatableServerSide.Service.Implementations
             throw new NotImplementedException();
         }
 
-        public DatatableResultModel<List<User>> GetDatatableUsers(string searchText, string filterType, string sortColumn, FCSortDirection sortDirection, int? start = null, int? length = null)
+        public DatatableResultModel<List<User>> GetDatatableUsers(string searchText, string filterType, string sortColumn, FCSortDirection sortDirection, IDictionary<string, string> SearchColumns, int? start = null, int? length = null)
         {
+
             Expression<Func<User, bool>> deleg = x => true;
 
-
+            //Check for search item
             if (!string.IsNullOrEmpty(searchText))
             {
                 searchText = searchText.ToLower();
-                deleg = x => x.FullName().ToLower().Contains(searchText);
+                deleg = x => x.FirstName.ToLower().Contains(searchText) ||
+                x.EmailAddress.ToLower().Contains(searchText) ||
+                x.MiddleName.ToLower().Contains(searchText) ||
+                x.LastName.ToLower().Contains(searchText) ||
+                x.PhoneNumber.ToLower().Contains(searchText);
             }
+            foreach (KeyValuePair<string, string> searchCol in SearchColumns)
+            {
+                var colName = searchCol.Key.ToLower();
+                var colValue = searchCol.Value;
 
-            //deleg = x => !string.IsNullOrEmpty(searchText) ? (x.FullName().ToLower().Contains(searchText)) : true &&
-            //!string.IsNullOrEmpty(filterType) ? 
-            //(filterType == "active" ? x.IsActive == true : x.IsActive != true) : true;
+                if (colValue != null)
+                {
+                    colValue = colValue.ToLower();
+
+                    switch (colName)
+                    {
+                        case "fullname":
+                            deleg = deleg.AndAlso(x => (x.FirstName.ToLower().Contains(colValue)) || (x.MiddleName.ToLower().Contains(colValue)) || (x.LastName.ToLower().Contains(colValue)));
+                            break;
+                        case "emailaddress":
+                            deleg = deleg.AndAlso(x => x.EmailAddress.ToLower().Contains(colValue));
+                            break;
+                        case "phonenumber":
+                            deleg = deleg.AndAlso(x => x.PhoneNumber.ToLower().Contains(colValue));
+                            break;
+                        default:
+                            break;
+                    }
+                    // deleg = deleg.AndAlso(x => x.GetType().GetProperty(colName).GetValue(x).ToString().Contains(searchCol.Value));
+                }
+            }
 
             //Check if active or inactive
             if (!string.IsNullOrEmpty(filterType))
@@ -53,12 +81,10 @@ namespace DatatableServerSide.Service.Implementations
                 {
 
                     case "active":
-                        deleg = x => x.IsVerified == true;
+                        deleg = deleg.AndAlso(x => x.IsVerified == true);
                         break;
                     case "inactive":
-                        //deleg = deleg.AndAlso(x => x.Status == Status.InActive);
-
-                        //  deleg = (deleg != null) ? deleg.AndAlso(x => x.Status == Status.InActive) : x => x.Status == Status.InActive;
+                        deleg = deleg.AndAlso(x => x.IsVerified != true);
                         break;
                     default:
                         break;

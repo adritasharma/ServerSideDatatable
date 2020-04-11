@@ -49,6 +49,10 @@
               "target": "Package",
               "version": "[7.0.0, )"
             },
+            "DataTables.AspNet.AspNetCore": {
+              "target": "Package",
+              "version": "[2.0.2, )"
+            },
             "DataTables.AspNet.Core": {
               "target": "Package",
               "version": "[2.0.2, )"
