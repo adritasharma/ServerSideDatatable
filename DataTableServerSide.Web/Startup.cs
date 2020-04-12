@@ -12,6 +12,10 @@ using Microsoft.Extensions.DependencyInjection;
 using System.Collections.Generic;
 using System.Linq;
 using DataTables.AspNet.AspNetCore;
+using DatatableServerSide.Repository.Interface;
+using DatatableServerSide.Repository.Implementation;
+using DatatableServerSide.Service.Interface;
+using DatatableServerSide.Service.Implementations;
 
 namespace DataTableServerSide.Web
 {
@@ -35,6 +39,13 @@ namespace DataTableServerSide.Web
                 configuration.RootPath = "ClientApp/dist";
             });
 
+            services.AddScoped(typeof(IUnitOfWork), typeof(UnitOfWork));
+
+
+            services.AddScoped(typeof(IUserRepository), typeof(UserRepository));
+
+            services.AddScoped(typeof(IUserService), typeof(UserService));
+
             services.AddAutoMapper(typeof(Startup));
 
             var datatableOptions = new DataTables.AspNet.AspNetCore.Options()
@@ -46,7 +57,7 @@ namespace DataTableServerSide.Web
             services.RegisterDataTables(datatableOptions, dataTableBinder);
 
             services.AddDbContext<UserDataDbContext>(options =>
-                      options.UseSqlServer(Configuration.GetConnectionString("GreendishaCRM")));
+                      options.UseSqlServer(Configuration.GetConnectionString("UserDataDbContext")));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

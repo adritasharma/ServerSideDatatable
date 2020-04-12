@@ -1,0 +1,44 @@
+<div class="row">
+  <div class=" tab-row mx-4">
+    <ul class="nav nav-tabs upper">
+      <li class="pointer">
+        <a data-toggle="tab" aria-expanded="true" class="nav-link tablinks" (click)="status = 'active';reload()"
+          [ngClass]="{'active': status == 'active'}">Active</a>
+      </li>
+      <li class="pointer">
+        <a data-toggle="tab" aria-expanded="true" class="nav-link tablinks" (click)="status = 'pending';reload()"
+          [ngClass]="{'active': status == 'pending'}">Pending</a>
+      </li>
+    </ul>
+  </div>
+  <div class="col-md-12">
+    <table class="table table-striped" datatable [dtOptions]="dtOptions">
+      <thead>
+        <tr>
+          <th>Action</th>
+          <th>Name</th>
+          <th>Email</th>
+          <th>Empid</th>
+          <th>Role</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let item of allUsers">
+          <td></td>
+          <td>{{item.fullname}}</td>
+          <td>{{item.email}}</td>
+          <td>{{item.empid}}</td>
+          <td>{{item.roleNames}}</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <th></th>
+          <th><input type="text" placeholder="Search fullname" name="fullname" /></th>
+          <th><input type="text" placeholder="email" name="email" /></th>
+          <th><input type="text" placeholder="empid" name="empid" /></th>
+          <th></th>
+        </tr>
+      </tfoot>
+    </table>
+  </div>

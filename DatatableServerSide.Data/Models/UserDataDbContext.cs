@@ -21,4 +21,6 @@ namespace DatatableServerSide.Data.Models
         public virtual DbSet<UserRole> UserRoles { get; set; }
 
     }
+
+
 }

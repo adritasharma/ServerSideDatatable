@@ -7,3 +7,5 @@ C:\Adrita\Workspace\GitHub\Projects\DataTableServerSide\DatatableServerSide.Data
 C:\Adrita\Workspace\GitHub\Projects\DataTableServerSide\DatatableServerSide.Data\obj\Debug\netcoreapp2.2\DatatableServerSide.Data.AssemblyInfo.cs
 C:\Adrita\Workspace\GitHub\Projects\DataTableServerSide\DatatableServerSide.Data\obj\Debug\netcoreapp2.2\DatatableServerSide.Data.dll
 C:\Adrita\Workspace\GitHub\Projects\DataTableServerSide\DatatableServerSide.Data\obj\Debug\netcoreapp2.2\DatatableServerSide.Data.pdb
+C:\Adrita\Workspace\GitHub\Projects\DataTableServerSide\DatatableServerSide.Data\bin\Debug\netcoreapp2.2\DatatableServerSide.Data.runtimeconfig.json
+C:\Adrita\Workspace\GitHub\Projects\DataTableServerSide\DatatableServerSide.Data\bin\Debug\netcoreapp2.2\DatatableServerSide.Data.runtimeconfig.dev.json

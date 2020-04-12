@@ -94,7 +94,7 @@ namespace DatatableServerSide.Service.Implementations
             IEnumerable<User> query;
 
 
-            string defaultOrderBy = "FullName";
+            string defaultOrderBy = "FirstName";
             if (!string.IsNullOrEmpty(sortColumn) && sortColumn.ToLower() != "Id")
             {
                 query = _userRepository.GetDatatableResponse(deleg, sortColumn, sortDirection, null, start, length);

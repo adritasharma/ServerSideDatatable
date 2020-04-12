@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Adrita\\Workspace\\GitHub\\Projects\\DatatableServerSide\\DatatableServerSide.Repository\\DatatableServerSide.Repository.csproj": {}
+    "C:\\Adrita\\Workspace\\GitHub\\Projects\\DataTableServerSide\\DatatableServerSide.Repository\\DatatableServerSide.Repository.csproj": {}
   },
   "projects": {
-    "C:\\Adrita\\Workspace\\GitHub\\Projects\\DatatableServerSide\\DatatableServerSide.Data\\DatatableServerSide.Data.csproj": {
+    "C:\\Adrita\\Workspace\\GitHub\\Projects\\DataTableServerSide\\DatatableServerSide.Data\\DatatableServerSide.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Adrita\\Workspace\\GitHub\\Projects\\DatatableServerSide\\DatatableServerSide.Data\\DatatableServerSide.Data.csproj",
+        "projectUniqueName": "C:\\Adrita\\Workspace\\GitHub\\Projects\\DataTableServerSide\\DatatableServerSide.Data\\DatatableServerSide.Data.csproj",
         "projectName": "DatatableServerSide.Data",
-        "projectPath": "C:\\Adrita\\Workspace\\GitHub\\Projects\\DatatableServerSide\\DatatableServerSide.Data\\DatatableServerSide.Data.csproj",
+        "projectPath": "C:\\Adrita\\Workspace\\GitHub\\Projects\\DataTableServerSide\\DatatableServerSide.Data\\DatatableServerSide.Data.csproj",
         "packagesPath": "C:\\Users\\adrit\\.nuget\\packages\\",
-        "outputPath": "C:\\Adrita\\Workspace\\GitHub\\Projects\\DatatableServerSide\\DatatableServerSide.Data\\obj\\",
+        "outputPath": "C:\\Adrita\\Workspace\\GitHub\\Projects\\DataTableServerSide\\DatatableServerSide.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -61,6 +61,20 @@
               "target": "Package",
               "version": "[2.2.6, )"
             },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "target": "Package",
+              "version": "[2.2.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[2.2.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.6, )"
+            },
             "Microsoft.NETCore.App": {
               "suppressParent": "All",
               "target": "Package",
@@ -84,14 +98,14 @@
         }
       }
     },
-    "C:\\Adrita\\Workspace\\GitHub\\Projects\\DatatableServerSide\\DatatableServerSide.Repository\\DatatableServerSide.Repository.csproj": {
+    "C:\\Adrita\\Workspace\\GitHub\\Projects\\DataTableServerSide\\DatatableServerSide.Repository\\DatatableServerSide.Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Adrita\\Workspace\\GitHub\\Projects\\DatatableServerSide\\DatatableServerSide.Repository\\DatatableServerSide.Repository.csproj",
+        "projectUniqueName": "C:\\Adrita\\Workspace\\GitHub\\Projects\\DataTableServerSide\\DatatableServerSide.Repository\\DatatableServerSide.Repository.csproj",
         "projectName": "DatatableServerSide.Repository",
-        "projectPath": "C:\\Adrita\\Workspace\\GitHub\\Projects\\DatatableServerSide\\DatatableServerSide.Repository\\DatatableServerSide.Repository.csproj",
+        "projectPath": "C:\\Adrita\\Workspace\\GitHub\\Projects\\DataTableServerSide\\DatatableServerSide.Repository\\DatatableServerSide.Repository.csproj",
         "packagesPath": "C:\\Users\\adrit\\.nuget\\packages\\",
-        "outputPath": "C:\\Adrita\\Workspace\\GitHub\\Projects\\DatatableServerSide\\DatatableServerSide.Repository\\obj\\",
+        "outputPath": "C:\\Adrita\\Workspace\\GitHub\\Projects\\DataTableServerSide\\DatatableServerSide.Repository\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -110,8 +124,8 @@
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-              "C:\\Adrita\\Workspace\\GitHub\\Projects\\DatatableServerSide\\DatatableServerSide.Data\\DatatableServerSide.Data.csproj": {
-                "projectPath": "C:\\Adrita\\Workspace\\GitHub\\Projects\\DatatableServerSide\\DatatableServerSide.Data\\DatatableServerSide.Data.csproj"
+              "C:\\Adrita\\Workspace\\GitHub\\Projects\\DataTableServerSide\\DatatableServerSide.Data\\DatatableServerSide.Data.csproj": {
+                "projectPath": "C:\\Adrita\\Workspace\\GitHub\\Projects\\DataTableServerSide\\DatatableServerSide.Data\\DatatableServerSide.Data.csproj"
               }
             }
           }
@@ -142,6 +156,20 @@
               "version": "[2.0.2, )"
             },
             "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[2.2.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "target": "Package",
+              "version": "[2.2.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[2.2.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[2.2.6, )"
             },

@@ -7,3 +7,5 @@ C:\Adrita\Workspace\GitHub\Projects\DatatableServerSide\DatatableSeverside.Utili
 C:\Adrita\Workspace\GitHub\Projects\DatatableServerSide\DatatableSeverside.Utility\obj\Debug\netcoreapp2.2\DatatableSeverside.Utility.dll
 C:\Adrita\Workspace\GitHub\Projects\DatatableServerSide\DatatableSeverside.Utility\obj\Debug\netcoreapp2.2\DatatableSeverside.Utility.pdb
 C:\Adrita\Workspace\GitHub\Projects\DatatableServerSide\DatatableSeverside.Utility\obj\Debug\netcoreapp2.2\DatatableSeverside.Utility.csprojAssemblyReference.cache
+C:\Adrita\Workspace\GitHub\Projects\DataTableServerSide\DatatableSeverside.Utility\bin\Debug\netcoreapp2.2\DatatableSeverside.Utility.runtimeconfig.json
+C:\Adrita\Workspace\GitHub\Projects\DataTableServerSide\DatatableSeverside.Utility\bin\Debug\netcoreapp2.2\DatatableSeverside.Utility.runtimeconfig.dev.json
