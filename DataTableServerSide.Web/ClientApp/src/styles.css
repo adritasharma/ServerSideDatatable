@@ -1,1 +1,12 @@
-/* You can add global styles to this file, and also import other style files */
+.no-data-available {
+    text-align: center;
+}
+
+.dataTables_empty {
+    display: none;
+}
+.tab-row {
+    width: 100%;
+    margin-bottom: 25px;
+    margin-bottom: 25px;
+}

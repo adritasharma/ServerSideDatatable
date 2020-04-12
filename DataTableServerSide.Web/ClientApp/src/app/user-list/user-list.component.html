@@ -6,8 +6,8 @@
           [ngClass]="{'active': status == 'active'}">Active</a>
       </li>
       <li class="pointer">
-        <a data-toggle="tab" aria-expanded="true" class="nav-link tablinks" (click)="status = 'pending';reload()"
-          [ngClass]="{'active': status == 'pending'}">Pending</a>
+        <a data-toggle="tab" aria-expanded="true" class="nav-link tablinks" (click)="status = 'inactive';reload()"
+          [ngClass]="{'active': status == 'inactive'}">Pending</a>
       </li>
     </ul>
   </div>
@@ -18,25 +18,25 @@
           <th>Action</th>
           <th>Name</th>
           <th>Email</th>
-          <th>Empid</th>
+          <th>Phone Number</th>
           <th>Role</th>
         </tr>
       </thead>
       <tbody>
         <tr *ngFor="let item of allUsers">
           <td></td>
-          <td>{{item.fullname}}</td>
-          <td>{{item.email}}</td>
-          <td>{{item.empid}}</td>
+          <td>{{item.fullName}}</td>
+          <td>{{item.emailAddress}}</td>
+          <td>{{item.phoneNumber}}</td>
           <td>{{item.roleNames}}</td>
         </tr>
       </tbody>
       <tfoot>
         <tr>
           <th></th>
-          <th><input type="text" placeholder="Search fullname" name="fullname" /></th>
-          <th><input type="text" placeholder="email" name="email" /></th>
-          <th><input type="text" placeholder="empid" name="empid" /></th>
+          <th><input type="text" placeholder="Search Name" name="fullname" /></th>
+          <th><input type="text" placeholder="Search Email Address" name="emailAddress" /></th>
+          <th><input type="text" placeholder="Search Phone Number" name="phoneNumber" /></th>
           <th></th>
         </tr>
       </tfoot>

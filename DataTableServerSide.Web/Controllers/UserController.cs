@@ -40,7 +40,7 @@ namespace DataTableServerSide.Web.Controllers
 
                 var res = _service.GetDatatableUsers(dtOptions.SearchText, dtOptions.FilterType, dtOptions.SortColumn, dtOptions.SortType, dtOptions.SearchColumns, dtOptions.Start, dtOptions.Length);
 
-                return Ok(DataTablesResponse.Create(request, res.TotalDataCount, res.FilteredDataCount, _mapper.Map<List<UserResponseDTO>>(res.Data)));
+                return Ok(DataTablesResponse.Create(request, res.recordsTotal, res.recordsFiltered, _mapper.Map<List<UserResponseDTO>>(res.Data)));
             }
         }
     }

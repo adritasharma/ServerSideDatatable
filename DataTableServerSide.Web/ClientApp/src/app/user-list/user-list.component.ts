@@ -50,7 +50,7 @@ export class UserListComponent implements OnInit {
         });
       },
       // "order": [],
-      columns: [{ "orderable": false, "searchable": false }, { data: 'fullName' }, { data: 'email' }, { data: 'empid', "orderable": false }, { data: 'roleNames'}]
+      columns: [{ "orderable": false, "searchable": false }, { data: 'fullName' }, { data: 'emailAddress' }, { data: 'phoneNumber', "orderable": false }, { data: 'roleNames'}]
     };
   }
 

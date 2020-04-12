@@ -12,6 +12,7 @@ using DatatableServerSide.Data.Models;
 using static DatatableServerSide.Data.Enum;
 using DatatableServerSide.Service.Interface;
 using DatatableSeverside.Utility;
+using System.Reflection;
 
 namespace DatatableServerSide.Service.Implementations
 {
@@ -69,7 +70,7 @@ namespace DatatableServerSide.Service.Implementations
                         default:
                             break;
                     }
-                    // deleg = deleg.AndAlso(x => x.GetType().GetProperty(colName).GetValue(x).ToString().Contains(searchCol.Value));
+                    // deleg = deleg.AndAlso(x => x.GetType().GetProperty(colName, BindingFlags.IgnoreCase | BindingFlags.Public | BindingFlags.Instance).GetValue(x).ToString().ToLower().Contains(colValue));
                 }
             }
 
@@ -106,8 +107,8 @@ namespace DatatableServerSide.Service.Implementations
             return new DatatableResultModel<List<User>>
             {
                 Data = query.ToList(),
-                TotalDataCount = _userRepository.Count(),
-                FilteredDataCount = _userRepository.Count(deleg)
+                recordsTotal = _userRepository.Count(),
+                recordsFiltered = _userRepository.Count(deleg)
             };
         }
 
